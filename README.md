@@ -6,6 +6,17 @@ Hundreds of millions of users actively participate in political discussions on s
 
 To improve the social media experiences of online hate victims and help them control the amount of hate they receive on a daily basis, the plugin “NoMoreHate” should be developed. This plugin should allow users to contextualize and block hateful messages and user profiles within several social media platforms. 
 
+# Related Work
+
+[A systematic review of Hate Speech automatic detection using Natural Language Processing](https://arxiv.org/abs/2106.00742)
+[Overview of the Evalita 2018 Task on Automatic Misogyny Identification](https://ceur-ws.org/Vol-2263/paper009.pdf)
+[Identifying Different Layers of Online Misogyny](https://arxiv.org/abs/2212.00480)
+[A Survey on Automatic Detection of Hate Speech in Text](https://dl.acm.org/doi/10.1145/3232676)
+[The Datafication of Hate: Expectations and Challenges in Automated Hate Speech Monitoring](https://www.frontiersin.org/articles/10.3389/fdata.2020.00003/full)
+[Hate speech detection: Challenges and solutions](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0221152)
+[A Survey on Detecting and Preventing Hateful Comments on Social Media Using Deep Learning](https://link.springer.com/chapter/10.1007/978-981-19-3575-6_30)
+
+
 # Project Goal
   
 ## General Requirements
