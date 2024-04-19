@@ -1,4 +1,4 @@
-# Development hate and misogyny detection models for the project "NoMoreHate"
+# Development of hate and misogyny detection models for the project "NoMoreHate"
 
 # Background
 Hundreds of millions of users actively participate in political discussions on social media worldwide. While these discussions offer opportunities to exchange different opinions and perspectives, they also often contain hate speech, toxicity or statements of political radicalization. In the project “Understanding, Detecting, and Mitigating Online Misogyny Against Politically Active Women”,  researchers of TUM and LMU work together on developing efficient techniques to combat misogyny and hate speech on social media platforms and mitigate their negative effects on victims.
