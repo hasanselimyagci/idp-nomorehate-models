@@ -1,17 +1,13 @@
 # Development of hate and misogyny detection models for the project "NoMoreHate"
 
 # Background
+
 Hundreds of millions of users actively participate in political discussions on social media worldwide. While these discussions offer opportunities to exchange different opinions and perspectives, they also often contain hate speech, toxicity or statements of political radicalization. In the project “Understanding, Detecting, and Mitigating Online Misogyny Against Politically Active Women”,  researchers of TUM and LMU work together on developing efficient techniques to combat misogyny and hate speech on social media platforms and mitigate their negative effects on victims.
+
 To improve the social media experiences of online hate victims and help them control the amount of hate they receive on a daily basis, the plugin “NoMoreHate” should be developed. This plugin should allow users to contextualize and block hateful messages and user profiles within several social media platforms. 
 
 # Project Goal
-To analyse whether a message is hateful or not, efficient algorithms are needed to detect several forms of hate within textual data. In this IDP, a collection of machine learning models for hate speech detection should be developed.   
-In specific, the models should include the following criteria:
-## Types of Hate
-The models should be able to detect different forms of hatespeech. In specific, they should differentiate between the aim of the message, such as hatespeech directed at people of a different race or ethnicity, hatespeech directed at female persons (mysogony), hatepeech directed at a group of people vs. at an individual, … Furthermore, they should uncover the linguistic structure of multiple types of hatespeech, such as  threats, profanity, toxicity, directed insults and many more. By doing so, they should not only be able to detect explicit hateful messages, but also implicit forms of hatespeech (e.g. cynism, sarcasm, imputation).
-## Textual Structures
-As the plugin should work for several social media platforms, the textual structures of input data heavily vary. For example, while Twitter messages tend to be comparatively long, with elaborated grammatical structures, TikTok messages tend to consist of few words, often including no sentence structure, but comprising many emojis. For each form of message (e.g. short vs. long messages), a separate model should be developed. Within the textual preprocessing phase, the structure of the message should be analysed, and the message should then be evaluated based on a models suited to the structure. In addition, techniques should developed to handle semi-textual data, such as emojis, hashtags, and user mentions.
-In addition, the algorithm should be able to detect the language of a tweet and use a hatespeech model fitted to the language. For the languages English, German and Brazilian, sophisticated models should be developed, which are able to take the language specific differences into account. For all other languages, the input data should be translated to English and a generic model should be developed, to detect hate within translated messages.
+  
 ## General Requirements
 * Efficiency: The models should be fast and efficient to allow for real-time detection of hateful messages. Different machine learning algorithms should be developed and tested to select the most appropriate techniques for efficient hate speech detection.
 * Extendable: Models should be developed in a way, that they are adaptable to feedback on the quality of the estimation, reported by either researchers or users.
