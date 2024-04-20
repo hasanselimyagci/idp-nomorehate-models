@@ -28,9 +28,18 @@ Hundreds of millions of users actively participate in political discussions on s
 * In 'HateMisogynyDetection.ipnyb', sections are exploratory findings, further preprocessing, tokenization, training, evaluation and model saving.
 * For each language and task, you can run the generic notebook by setting the dataset name (or its path), and the name of tokenizer and pretrained model.
 
-## Preprocessing
+### Preprocessing
 Depending on the desired objective, different preprocessing steps are implemented: case lowering, punctuation removal, url removal, emoji removal, stopwords removal, frequent words removal. 
-
+### Training
+We used different versions of **BERT** model as Pretrained Language Model to finetune with each downstream objectives. And we set the following hyperparameters to make the models optimal:
+* Number of epochs: 3 (can be modified depending on the validation loss)
+* learning rate: 1e-5
+* optimizer: Adam
+* batch size: 32
+### Evaluation
+We evaluated each model's performance on functional test sets. 
+* Using **model.eval()** function, it's important to keep weights not updated (by **torch.no_grad()** function).
+* Using **classification_report** function of **sklearn** library
 
 # Results and Challenges
 ![Train and Validation Loss](hateEnTrainValid.png)
