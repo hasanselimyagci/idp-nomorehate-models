@@ -42,7 +42,16 @@ We evaluated each model's performance on functional test sets.
 * Using **classification_report** function of **sklearn** library
 
 # Results and Challenges
-![Train and Validation Loss](hateEnTrainValid.png)
+* Dataset exploration
+![hate](hateEnglish.png)
+* Training-Validation loss curve
+![hate](hateEnTrainValid.png)
+* Evaluation report
+![hate](hateEnEval.png)
+* Misclassified texts
+![hate](misclassifiedHateEn.png)
 
 # Future Work
-
+* Bias Mitigation
+* Language Adapters
+* Human Feedback Reinforcement Learning
