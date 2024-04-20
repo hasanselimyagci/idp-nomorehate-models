@@ -54,13 +54,14 @@ We evaluated each model's performance on functional test sets.
 
 * Evaluation report
   <p align="center">
-    <img align="left" width="400" height="200" src="https://raw.githubusercontent.com/hasanselimyagci/nomorehate/main/hateEnEval.png?token=GHSAT0AAAAAACNXEZ3RVCWAOFYGS76VFNVKZREHUBQ">
+    <img width="400" height="200" src="https://raw.githubusercontent.com/hasanselimyagci/nomorehate/main/hateEnEval.png?token=GHSAT0AAAAAACNXEZ3RVCWAOFYGS76VFNVKZREHUBQ">
   </p>
 
 * Misclassified texts
   <p align="center">
-    <img align="left" width="600" height="200" src="https://raw.githubusercontent.com/hasanselimyagci/nomorehate/main/misclassifiedHateEn.png?token=GHSAT0AAAAAACNXEZ3Q5DIDDOIWFPY3I7XQZREHUOQ">
+    <img width="800" height="200" src="https://raw.githubusercontent.com/hasanselimyagci/nomorehate/main/misclassifiedHateEn.png?token=GHSAT0AAAAAACNXEZ3Q5DIDDOIWFPY3I7XQZREHUOQ">
   </p>
+
 
 # Future Work
 * Bias Mitigation
