@@ -44,12 +44,12 @@ We evaluated each model's performance on functional test sets.
 # Results and Challenges
 * Dataset exploration
   <p align="center">
-    <img width="400" height="200" src="https://raw.githubusercontent.com/hasanselimyagci/nomorehate/main/hateEnglish.png?token=GHSAT0AAAAAACNXEZ3RXCB7QCTORT3PCSR4ZREHRJA">
+    <img width="400" height="200" src="https://github.com/hasanselimyagci/nomorehate/blob/main/hateEnglish.png">
   </p>
 
 * Training-Validation loss curve
   <p align="center">
-    <img width="400" height="200" src="https://raw.githubusercontent.com/hasanselimyagci/nomorehate/main/hateEnTrainValid.png?token=GHSAT0AAAAAACNXEZ3RBUA7X4P45K6WI3H4ZREHS6A">
+    <img width="400" height="200" src="https://github.com/hasanselimyagci/nomorehate/blob/main/hateEnTrainValid.png">
   </p>
 
 * Evaluation report
@@ -59,7 +59,7 @@ We evaluated each model's performance on functional test sets.
 
 * Misclassified texts
   <p align="center">
-    <img width="800" height="200" src="https://raw.githubusercontent.com/hasanselimyagci/nomorehate/main/misclassifiedHateEn.png?token=GHSAT0AAAAAACNXEZ3Q5DIDDOIWFPY3I7XQZREHUOQ">
+    <img width="800" height="200" src="https://github.com/hasanselimyagci/nomorehate/blob/main/misclassifiedHateEn.png">
   </p>
 
 
