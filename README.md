@@ -54,7 +54,7 @@ We evaluated each model's performance on functional test sets.
 
 * Evaluation report
   <p align="center">
-    <img width="400" height="200" src="https://raw.githubusercontent.com/hasanselimyagci/nomorehate/main/hateEnEval.png?token=GHSAT0AAAAAACNXEZ3RVCWAOFYGS76VFNVKZREHUBQ">
+    <img width="400" height="200" src="https://github.com/hasanselimyagci/nomorehate/blob/main/hateEnEval.png">
   </p>
 
 * Misclassified texts
