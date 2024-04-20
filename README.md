@@ -33,6 +33,7 @@ Depending on the desired objective, different preprocessing steps are implemente
 
 
 # Results and Challenges
+![Train and Validation Loss](hateEnTrainValid.png)
 
 # Future Work
 
