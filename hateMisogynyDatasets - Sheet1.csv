@@ -1,0 +1,23 @@
+,Size,Source,Label,Defined Term,Year,Reference,Language
+EDOS,"20,000",Gab+Reddit,multiple-level,Sexism,2023,https://github.com/rewire-online/edos,English
+Expert Annotated for Online Misogyny,"7,000",Reddit,multiple-level,Misogyny,2021,https://aclanthology.org/2021.eacl-main.114/,English
+AMI,"5,000",Twitter,multiple-level,Misogyny,2018,https://github.com/evalita2018/data,English(+Italian)
+Berkeley Measuring Hate Speech,"50,000",YouTube+Reddit+Twitter,binary + target,Hate,2022,https://huggingface.co/datasets/ucberkeley-dlab/measuring-hate-speech,English
+Facebook Dynamically Generated HS,"40,000",Facebook,binary + target,Hate,2021,https://github.com/bvidgen/Dynamically-Generated-Hate-Speech-Dataset,English
+DeTox,"10,278",Twitter (comments),binary + type of disc.,Hate,2021,https://github.com/hdaSprachtechnologie/detox,German
+RP-Mod & RP-Crowd,"85,000",News comments,binary,Sexism,2021,https://zenodo.org/record/5291339#.Ybr_9VkxkUE,German
+GermEval2018,"8,500",Twitter,"binary (+abuse,insult",Offensive,2018,https://github.com/uds-lsv/GermEval-2018-Data,German
+ToLD-Br,"21,000",Twitter (posts),multiclass,Misogyny,2020,https://github.com/JAugusto97/ToLD-Br,Portuguese
+Hierarchically-Labeled Portuguese HS ,"3,059",Twitter (posts),multiple-level,Hate,2019,https://b2share.eudat.eu/records/9005efe2d6be4293b63c3cffd4cf193e,Portuguese
+Offensive Comments in Brazilian Web,"1,250",News comments,binary + target,Offensive,2017,https://github.com/rogersdepelle/OffComBR,Portuguese
+Large-Scale Hate Speech Detection,"68,597",Twitter (posts),3class + target,Hate/Offensive,2023,https://github.com/avaapm/hatespeech,English(+turkish)
+ConvAbuse,"4,185",Conversion with AI bots,binary+implicit/explic,Abuse/Sexism,2021,https://github.com/amandacurry/convabuse,English
+"‘Call me sexist, but’ sexism dataset",6325,Twitter,binary,Sexism,2021,https://doi.org/10.7802/2251,English
+AbuseEval v1.0,"14,100",Twitter,binary (expliciteness),Abuse/Offense,2020,https://github.com/tommasoc80/AbuseEval,English
+HateCheck,"3,728",Synthetically-Generated,binary + target,Hate,2020,https://github.com/paul-rottger/hatecheck-data,English
+HateXplain,"20,148",Twitter+Gab,3class + target,Hate,2021,https://github.com/hate-alert/HateXplain,English
+Hateful Symbols or Hateful People,"16,914",Twitter,binary,Sexism,2016,https://github.com/ZeerakW/hatespeech,English
+The Gab Hate Corpus,"27,665",Gab,hate/explicit/identity,Hate,2018,https://osf.io/edua3/,English
+Automatic Misogyny Identification IberEval,"3,977",Twitter,binary + subcategory,Misogyny,2018,https://amiibereval2018.wordpress.com/important-dates/data/,English
+HS Against Immigrants and Women (SemEval),"13,000",Twitter,binary,Hate,2019,https://www.aclweb.org/anthology/S19-2007,English
+Multilingual HateCheck,"3,900",unk,binary + target,Hate,2022,https://huggingface.co/datasets/Paul/hatecheck-portuguese,Portuguese
