@@ -43,7 +43,7 @@ We evaluated each model's performance on functional test sets.
 
 # Results and Challenges
 * Dataset exploration
-![hate](hateEnglish.png)
+<img align="left" width="400" height="200" src="https://raw.githubusercontent.com/hasanselimyagci/nomorehate/main/hateEnglish.png?token=GHSAT0AAAAAACNXEZ3RXCB7QCTORT3PCSR4ZREHRJA">
 * Training-Validation loss curve
 ![hate](hateEnTrainValid.png)
 * Evaluation report
