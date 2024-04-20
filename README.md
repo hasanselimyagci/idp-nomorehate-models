@@ -4,8 +4,6 @@
 
 Hundreds of millions of users actively participate in political discussions on social media worldwide. While these discussions offer opportunities to exchange different opinions and perspectives, they also often contain hate speech, toxicity or statements of political radicalization. In the project “Understanding, Detecting, and Mitigating Online Misogyny Against Politically Active Women”,  researchers of TUM and LMU work together on developing efficient techniques to combat misogyny and hate speech on social media platforms and mitigate their negative effects on victims.
 
-To improve the social media experiences of online hate victims and help them control the amount of hate they receive on a daily basis, the plugin “NoMoreHate” should be developed. This plugin should allow users to contextualize and block hateful messages and user profiles within several social media platforms. 
-
 # Related Work
 
 * [A systematic review of Hate Speech automatic detection using Natural Language Processing](https://arxiv.org/abs/2106.00742)
@@ -17,9 +15,24 @@ To improve the social media experiences of online hate victims and help them con
 * [A Survey on Detecting and Preventing Hateful Comments on Social Media Using Deep Learning](https://link.springer.com/chapter/10.1007/978-981-19-3575-6_30)
 
 
-# Project Goal
-  
-## General Requirements
-* Efficiency: The models should be fast and efficient to allow for real-time detection of hateful messages. Different machine learning algorithms should be developed and tested to select the most appropriate techniques for efficient hate speech detection.
-* Extendable: Models should be developed in a way, that they are adaptable to feedback on the quality of the estimation, reported by either researchers or users.
-* Explainable: Different approaches should be developed to make the model interpretable and explainable. This should help researchers and users to understand why a certain message was classified as hateful by the model.
+# Project Overview
+
+* We trained mainly 6 models: Seperate models for hate and misogyny detection in English, German and Portuguese languages.
+* Transformer-based pretrained deep learning models are finetuned on relevant datasets and evaluations are reported.
+* Experiments like data augmentation is applied to improve performances on low source languages.
+
+# Setup
+
+* Preprocessing steps are applied on datasets to make the data ready for finetuning phase.
+* In 'DataPreparation.ipnyb', you can see example of initial modification of datasets coming from different sources. The purpose is to standardize the dataset format as having two columns {text, label}.
+* In 'HateMisogynyDetection.ipnyb', sections are exploratory findings, further preprocessing, tokenization, training, evaluation and model saving.
+* For each language and task, you can run the generic notebook by setting the dataset name (or its path), and the name of tokenizer and pretrained model.
+
+## Preprocessing
+Depending on the desired objective, different preprocessing steps are implemented: case lowering, punctuation removal, url removal, emoji removal, stopwords removal, frequent words removal. 
+
+
+# Results and Challenges
+
+# Future Work
+
