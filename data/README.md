@@ -1,0 +1,3 @@
+- Inside the hate and misogyny folder you can find the datasets that models are trained on.
+- In test folder there are 6 functional testsets to evaluate out of distribution performances of models.
+- The *syntheticMisogyny.csv* file includes synthetic data created using GPT model (to be used as data augmentation technic to improve german misogyny detection).
