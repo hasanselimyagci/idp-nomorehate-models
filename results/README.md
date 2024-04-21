@@ -12,7 +12,7 @@
     </p>
 * Misclassified samples (Misogyny - EN)
     <p align="center">
-      <img width="400" height="200" src="https://github.com/hasanselimyagci/nomorehate/blob/main/results/misclassifiedMisogynyEN.png">
+      <img width="800" height="200" src="https://github.com/hasanselimyagci/nomorehate/blob/main/results/misclassifiedMisogynyEN.png">
     </p>
 * Test result (Misogyny - DE)
     <p align="center">
