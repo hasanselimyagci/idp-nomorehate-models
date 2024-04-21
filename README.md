@@ -62,6 +62,17 @@ We evaluated each model's performance on functional test sets.
     <img width="800" height="200" src="https://github.com/hasanselimyagci/nomorehate/blob/main/misclassifiedHateEn.png">
   </p>
 
+# API integration
+```python
+tokenizer = AutoTokenizer.from_pretrained('bert-base-uncased', do_lower_case=False)
+model = torch.load('/home/css-user/hatespeech/models/enMisogynyModel.pt', map_location=torch.device('cpu'))
+
+input = tokenizer(body['message'], return_tensors='pt')
+logits = model(**input).logits
+predicted_class_id = logits.argmax().item() # or we can return the probability and choose a treshold higher/lower than 0.5 for predicted class
+# probability = (softmax(logits)).data[0][1].item()
+result['hate'] = True if predicted_class_id else False
+```
 
 # Future Work
 * Bias Mitigation
