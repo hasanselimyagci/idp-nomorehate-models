@@ -63,15 +63,18 @@ We evaluated each model's performance on functional test sets.
   </p>
 
 # API integration
+To integrate the models, we can call * *torch.load(path)* * function and corresponding tokenizers, if models are saved to server we can call with the file path or if the models are pushed to HuggingFace hub we can call: * *model = AutoModelForSequenceClassification.from_pretrained('modelname')* *. And for the inference, we can choose the class with higher probability or if we want to make our model less/more sensitive, we can specify a treshold value (i.e. if class 1 is higher than 0.7) and return the predicted class accordingly.
 ```python
 tokenizer = AutoTokenizer.from_pretrained('bert-base-uncased', do_lower_case=False)
 model = torch.load('/home/css-user/hatespeech/models/enMisogynyModel.pt', map_location=torch.device('cpu'))
 
 input = tokenizer(body['message'], return_tensors='pt')
 logits = model(**input).logits
-predicted_class_id = logits.argmax().item() # or we can return the probability and choose a treshold higher/lower than 0.5 for predicted class
-# probability = (softmax(logits)).data[0][1].item()
+predicted_class_id = logits.argmax().item()
 result['hate'] = True if predicted_class_id else False
+# or we can return the probability and choose a treshold higher/lower than 0.5 for the predicted class
+# probability = (softmax(logits)).data[0][1].item()
+# result['hate'] = True if (probability > 0.7) else False
 ```
 
 # Future Work
