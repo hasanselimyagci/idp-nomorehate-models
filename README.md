@@ -73,6 +73,7 @@ logits = model(**input).logits
 predicted_class_id = logits.argmax().item()
 result['hate'] = True if predicted_class_id else False
 # or we can return the probability and choose a treshold higher/lower than 0.5 for the predicted class
+# from torch.nn.functional import softmax
 # probability = (softmax(logits)).data[0][1].item()
 # result['hate'] = True if (probability > 0.7) else False
 ```
