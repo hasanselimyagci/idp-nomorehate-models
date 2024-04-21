@@ -26,16 +26,19 @@ Hundreds of millions of users actively participate in political discussions on s
 * Preprocessing steps are applied on datasets to make the data ready for finetuning phase.
 * In 'DataPreparation.ipnyb', you can see example of initial modification of datasets coming from different sources. The purpose is to standardize the dataset format as having two columns {text, label}.
 * In 'HateMisogynyDetection.ipnyb', sections are exploratory findings, further preprocessing, tokenization, training, evaluation and model saving.
+* In 'Inference.ipnyb', example inferencing code is given.
 * For each language and task, you can run the generic notebook by setting the dataset name (or its path), and the name of tokenizer and pretrained model.
 
 ### Preprocessing
 Depending on the desired objective, different preprocessing steps are implemented: case lowering, punctuation removal, url removal, emoji removal, stopwords removal, frequent words removal. 
 ### Training
-We used different versions of **BERT** model as Pretrained Language Model to finetune with each downstream objectives. And we set the following hyperparameters to make the models optimal:
-* Number of epochs: 3 (can be modified depending on the validation loss)
+We used different versions of **BERT** model as Pretrained Language Model to finetune with each downstream objectives. We wanted to use lighter models rather than LLMs in order to achieve more green and sustainable AI development.
+The following hyperparameters are set to make the models optimal:
+* Number of epochs: 3 *(can be increased if the observed validation loss continues to decrease)*
 * learning rate: 1e-5
 * optimizer: Adam
 * batch size: 32
+* pretrained language models: google-bert/bert-base-uncased, google-bert/bert-base-multilingual-uncased, google-bert/bert-base-german-cased, neuralmind/bert-base-portuguese-uncased
 ### Evaluation
 We evaluated each model's performance on functional test sets. 
 * Using **model.eval()** function, it's important to keep weights not updated (by **torch.no_grad()** function).
@@ -63,7 +66,7 @@ We evaluated each model's performance on functional test sets.
   </p>
 
 # API integration
-To integrate the models, we can call * *torch.load(path)* * function and corresponding tokenizers, if models are saved to server we can call with the file path or if the models are pushed to HuggingFace hub we can call: * *model = AutoModelForSequenceClassification.from_pretrained('modelname')* *. And for the inference, we can choose the class with higher probability or if we want to make our model less/more sensitive, we can specify a treshold value (i.e. if class 1 is higher than 0.7) and return the predicted class accordingly.
+To integrate the models, we can call *torch.load(path)* function and corresponding tokenizers, if models are saved to server we can call with the file path or if the models are pushed to HuggingFace hub we can call: *model = AutoModelForSequenceClassification.from_pretrained('modelname')*. And for the inference, we can choose the class with higher probability or if we want to make our model less/more sensitive, we can specify a treshold value (i.e. if class 1 is higher than 0.7) and return the predicted class accordingly.
 ```python
 tokenizer = AutoTokenizer.from_pretrained('bert-base-uncased', do_lower_case=False)
 model = torch.load('/home/css-user/hatespeech/models/enMisogynyModel.pt', map_location=torch.device('cpu'))
