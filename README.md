@@ -83,7 +83,13 @@ result['hate'] = True if predicted_class_id else False
 # result['hate'] = True if (probability > 0.7) else False
 ```
 
+# Challenges
+* Finding available data aligned with well defined hate and misogyny is hard (offensive, sexism, swear word and dialect bias). Annotation bias is also important factor.
+* Using LLMs to data augmentation is not optimal because of the LLM's bias and hallucination problem
+* Text classification on low source languages are not robust enough for unknown input.
+* Transfer learning setting where we finetune a pretrained multilanguage model on mixed data (English + low source language) and validate on low source data has shown relatively better performance.
+
 # Future Work
 * Bias Mitigation
 * Language Adapters
-* Human Feedback Reinforcement Learning
+* Integrating Human Feedback Reinforcement Learning
