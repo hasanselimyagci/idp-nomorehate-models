@@ -8,7 +8,6 @@
    tokenizer = AutoTokenizer.from_pretrained(CHECKPOINT)
    tokenizer.padding_side = "left"
    tokenizer.pad_token = tokenizer.eos_token
-   tokenized_datasets = ds.map(lambda batch: tokenizer(batch['text'], truncation=True), batched=True)
    ```
 * You can also modify the training step by using transformers library's Trainer object:
   ```python
