@@ -1,24 +1,23 @@
 # results
 
-- Hate
-  - Test result (EN)
-  - Misclassified samples (EN)
-  - Test result (DE)
-  - Misclassified samples (DE)
-  - Test result (PT)
-  - Misclassified samples (PT)
- - Misogyny
-  - Test result (EN)
-  - Misclassified samples (EN)
-  - Test result (DE) <p align="center">
-    <img width="400" height="200" src="https://github.com/hasanselimyagci/nomorehate/blob/main/results/EvalGermanMisogynyFromMultilangModel.png">
-  </p>
-  - Misclassified samples (DE) <p align="center">
-    <img width="800" height="200" src="https://github.com/hasanselimyagci/nomorehate/blob/main/results/wrongGermanMisogynyCheck.png">
-  </p>
-  
-  - Test result (PT)
-  - Misclassified samples (PT)
+* Test result (Hate - EN)
+* Misclassified samples (Hate - EN)
+* Test result (Hate - DE)
+* Misclassified samples (Hate - DE)
+* Test result (Hate - PT)
+* Misclassified samples (Hate - PT)
+* Test result (Misogyny - EN)
+* Misclassified samples (Misogyny - EN)
+* Test result (Misogyny - DE)
+    <p align="center">
+      <img width="400" height="200" src="https://github.com/hasanselimyagci/nomorehate/blob/main/results/EvalGermanMisogynyFromMultilangModel.png">
+    </p>
+* Misclassified samples (Misogyny - DE)
+    <p align="center">
+      <img width="800" height="200" src="https://github.com/hasanselimyagci/nomorehate/blob/main/results/wrongGermanMisogynyCheck.png">
+    </p>
+* Test result (Misogyny - PT)
+* Misclassified samples (Misogyny - PT)
 
 
 
