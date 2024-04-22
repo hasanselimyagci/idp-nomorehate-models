@@ -98,5 +98,7 @@ and also in [Hugging Face Spaces](https://huggingface.co/spaces/selimyagci/nomor
 
 # Future Work
 * Bias Mitigation
+* Knowledge Enhanced Detection
+* Interpretability
 * Language Adapters
 * Integrating Human Feedback Reinforcement Learning
