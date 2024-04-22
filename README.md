@@ -86,6 +86,9 @@ result['hate'] = True if predicted_class_id else False
 # probability = (softmax(logits)).data[0][1].item()
 # result['hate'] = True if (probability > 0.7) else False
 ```
+# Demo 
+You can demo the inference on Hugging Face [link](https://huggingface.co/selimyagci),
+and also in [Hugging Face Spaces](https://huggingface.co/spaces/selimyagci/nomorehate).
 
 # Challenges
 * Finding available data aligned with well defined hate and misogyny is hard (offensive, sexism, swear word and dialect bias). Annotation bias is also important factor.
