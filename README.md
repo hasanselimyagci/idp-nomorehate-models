@@ -21,6 +21,10 @@ Hundreds of millions of users actively participate in political discussions on s
 * Transformer-based pretrained deep learning models are finetuned on relevant datasets and evaluations are reported.
 * Experiments like data augmentation is applied to improve performances on low source languages.
 
+# Data
+
+You can find available list of datasets found relevant for the task in []()
+
 # Setup
 
 * Preprocessing steps are applied on datasets to make the data ready for finetuning phase.
