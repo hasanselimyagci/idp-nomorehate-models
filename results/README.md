@@ -9,6 +9,9 @@
      <img width="800" height="200" src="https://github.com/hasanselimyagci/nomorehate/blob/main/misclassifiedHateEn.png">
    </p>
 * Test result (Hate - DE)
+   <p align="center">
+     <img width="400" height="200" src="https://github.com/hasanselimyagci/nomorehate/blob/main/results/hateEvalDE.png">
+   </p>
 * Test result (Hate - PT)
    <p align="center">
      <img width="400" height="200" src="https://github.com/hasanselimyagci/nomorehate/blob/main/results/hateEvalPT.png">
