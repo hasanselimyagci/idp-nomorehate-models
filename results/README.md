@@ -23,7 +23,9 @@
       <img width="800" height="200" src="https://github.com/hasanselimyagci/nomorehate/blob/main/results/wrongGermanMisogynyCheck.png">
     </p>
 * Test result (Misogyny - PT)
-* Misclassified samples (Misogyny - PT)
+    <p align="center">
+      <img width="400" height="200" src="https://github.com/hasanselimyagci/nomorehate/blob/main/results/misogynyPTeval.png">
+    </p>
 
 
 
