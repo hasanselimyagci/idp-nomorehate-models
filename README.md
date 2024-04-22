@@ -25,7 +25,7 @@ Hundreds of millions of users actively participate in political discussions on s
 
 You can find available list of datasets found relevant for the task [here](ListOfRelatedDatasets.csv).
 
-# Setup
+# Methodology
 
 * Preprocessing steps are applied on datasets to make the data ready for finetuning phase.
 * In 'DataPreparation.ipnyb', you can see example of initial modification of datasets coming from different sources. The purpose is to standardize the dataset format as having two columns {text, label}.
@@ -48,7 +48,7 @@ We evaluated each model's performance on functional test sets.
 * Using **model.eval()** function, it's important to keep weights not updated (by **torch.no_grad()** function).
 * Using **classification_report** function of **sklearn** library
 
-# Results and Challenges
+# Results
 * Dataset exploration
   <p align="center">
     <img width="400" height="200" src="https://github.com/hasanselimyagci/nomorehate/blob/main/hateEnglish.png">
