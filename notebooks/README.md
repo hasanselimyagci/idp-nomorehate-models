@@ -1,5 +1,5 @@
  # python notebooks
- 
+ * All python notebooks in this folder can be run locally or on Google Colab. To run locally you can run the command ``` jupyter notebook ``` in your commandline (in the same file path you saved the notebook) or you can upload it to Colab and run. Notebooks are making easier to run individual cells and get interim results as you run the code.
  * You can run *HateMisogynyClassification* notebook to finetune a pretrained language model on hate or misogyny detection task. Inside the notebook some blocks are commented out, such as some preprocessing steps (which could be useful depending on the source data). Sections of the notebook includes: loading the data, analyzing and preprocessing, training-validation-test splitting, tokenization, finetuning, evaluation, finding misclassified samples, saving the model.
  * Since in that notebook the setting is for BERT-like transformer models, you can modify the code like below to use a autoregressive model like GPT instead. For tokenizer:
    ```python
