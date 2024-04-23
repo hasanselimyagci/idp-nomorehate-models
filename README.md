@@ -97,7 +97,7 @@ and also in [Hugging Face Spaces](https://huggingface.co/spaces/selimyagci/nomor
 * Transfer learning setting where we finetune a pretrained multilanguage model on mixed data (English + low source language) and validate on low source data has shown relatively better performance.
 
 # Future Work
-* **Bias Mitigation**  The pretrained models are tend to have biases like swear word and dialect bias. Debiasing methods for Language Models can be applied as a part of future work, such as knowledge enhancement. 
-* **Interpretability**  Making models' decision interpretable is also important both for developers and for users, to achieve that two possible method is implementing LIME model and multitask classification with detailed subcategory of hate or misogyny.
+* **Bias Mitigation**  The pretrained models tend to have biases like swear word and dialect bias. Debiasing methods for Language Models can be applied as a part of future work, such as knowledge enhancement approaches. 
+* **Interpretability**  Making decision of the models interpretable is also important both for developers and for users. Two possible methods are: implementing a post-hoc method like LIME model or alternating the task from binary to multitask classification with detailed subcategory of hate or misogyny can make models more interpretable.
 * **Language Adapters**  Considering there are less quality data on low source lanugages and also parameter efficient fine tuning, it is vital to implement language adapters to train on top of the trained high source language model to perform better at other languages.
-* **Integrating Human Feedback Reinforcement Learning** One further improvement is integrating feedback of users with RL approach in a continous learning fashion.
+* **Integrating Human Feedback Reinforcement Learning** Another further improvement is integrating feedback of users with RL approach in a continous learning fashion.
