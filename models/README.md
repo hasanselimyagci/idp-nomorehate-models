@@ -1,6 +1,4 @@
- # models
-
-You can download trained models using the links: 
+Trained models are available to download: 
 
 * Hate english [drive link](https://drive.google.com/file/d/1JTSYufEbenDeByQck0dvYLVcIPnTk-U_/view?usp=sharing)
 * Hate german [drive link](https://drive.google.com/file/d/1Knv4pybY05Bt7A0zkj63zAkRQeRHYJ6Z/view?usp=sharing)
